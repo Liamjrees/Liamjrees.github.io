@@ -6,7 +6,7 @@ let weather;
 function preload() {
   //For each position of the array, load a JSON object
   randomLocation = locationArray[round(random(locationArray.length-1))];
-  let url = "http://api.openweathermap.org/data/2.5/weather?q="+randomLocation+"&units=metric&appid="+apiKey;
+  let url = "https://api.openweathermap.org/data/2.5/weather?q="+randomLocation+"&units=metric&appid="+apiKey;
   weather = loadJSON(url); //weather will not contain all cities' weather data
 
 }
