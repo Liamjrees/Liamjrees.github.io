@@ -1,0 +1,47 @@
+/*list of style commands for the body*/
+body{
+  /*background color of body*/
+  background-color:  #ffffff;
+  /*font family which text will follow*/
+  font-family: sans-serif;
+  /*color of text*/
+  color: #ffffff;
+  /*alignment of text to center*/
+  text-align: center;
+  /*margin and padding to 0*/
+  margin: 0;
+  padding: 0;
+}
+/*list of commands for the header*/
+header{
+  /*set height and width dimensions for header*/
+  height: 150px;
+  width: 100%;
+  /*set background colour */
+  background-color: #000000;
+  padding: 20px 0px;
+  /*Add margin to bottom of header*/
+  margin-bottom: :30px;
+}
+/*list of commands for the sketchcontainer*/
+#sketchcontainer{
+  /*set padding to 0 for left and right so there are no white bars each side.*/
+  padding-left: 0;
+  padding-right: 0;
+  /*set margin to auto therefore the sketch will always be in the middle no matter the size of screen*/
+  margin-left: auto;
+  margin-right: auto;
+  /*set type of display*/
+  display: block;
+  /*set width of container*/
+  width: 1280px;
+}
+/*list of commands for the footer*/
+footer{
+  /*set dimensions for the footer*/
+  height: 200px;
+  width: 100%;
+  /*set background colour for the footer*/
+  background-color: #000000;
+
+}
